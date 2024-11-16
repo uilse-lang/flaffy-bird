@@ -1,0 +1,35 @@
+.game{
+    width: 1690px;
+    height: 700px;
+    border: 2px solid black;
+    position: absolute;
+}
+.sky{
+    background-image: url('https://wallpapercave.com/wp/wp6956942.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1690px;
+    height: 580px;
+    position: absolute;
+}
+.ground{
+    width: 1690px;
+    height: 120px;
+    position: absolute;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXEAAACJCAMAAADt7/hWAAAAllBMVEXe2JX39/ec5llzvy749/vSpknZsFne1pJSgCHh26F0iSzv/Lq672lrryqKy0tvvSqj2VL19fHc1o2G0UJ4xDOCzT6N2EqY4lWe6VuDxkmL1kdnuwvv8+yz6WKq4FmR3U50tzXw/MGt3We2712T5Uh9zi2O0FSo6m6X0WFeqQBoj0BBdgCElkhpgAXWsF/PnzXcuW3k36yDw2ZbAAADzElEQVR4nO2Z23LTMBRF07ilFErT4thxDKnL/X77/5+jMwzxVokUmTg7HVjrUZpjna5snTjTyRF4mRy6gf8OjLvBuBuMu8G4G4y7wbgbjLvBuBuMu8G4G4y7wbgbjLvBuJvQ+DHsg4TxF49hD1zFjb+8XLM671ldCrJ+fi3r17GCVUbBeaxgFSu4zii4J72+eh41frWcrWmna5q6X54Vi35jOpeNSgo6WZ91UlDJ+lzWF4Vs1PKkVgvk6IUeXTZ76LUZrdfXSePFL6qyP7srq+I381I+ibacy0ZfsJCComz7s+ugoJaCsi+oyr4g6+h73+ubHOO1pqY/oZgHqZENidm0k/ViIRvVrF+vZH2hBZ0cXUqBxiw4epdem7xe5UF/0euz7cazUlPHUtNKajQE0dS0sdS0QxMeK4j2GiR8p14TlyvDuKamzYjZLJKaYJA28scFgzRMjWyUmwtuZ7gUBINU1of2WuzYa68pHPq3R281Hk1NVfZPqtuhCW+tCY/3mnH0br1Wdy/XVuMynKZZCW83D9Lg+3qqqREbYcz0tabMGaR5t1Hyt5de9TYWf97GLcarSj66Oic1lSS8jiS8CwokNbWmpspJTasFkvDhvUYDO7TXOt3rFuOR4VTcHU5rdJBGXxXkm3+nQTrNGaTRXsMfGRm9FtGER67ExtuYND4fMeFTedLg1GhBKwWS8HvT6+aE970mjB8tg0EqH11WwrNeFTRmmprYIE28DA/sdZZ1G4PXmkiveQlfPyll/G3GXAxDEJuLVaxgl4R3kYQvvL3OB/aaMv6uWRN8/fbLTZDwTjbChPfrwc+9VgrChEuBpqbMKDhgr020V3lSyvj7izU3T3puLgRZf7K8yCiIbSz1SYMLso4+XK969IfEN+fHhzA+nxIZ//wIxudL4j8SX09gfL4ljH9/AONzkjB+dgrj8zRlfALjg3E3GHeDcTcYd4NxNxh3g3E3GHeDcTcYd4NxNxh3g3E3GHeDcTcYd4NxNxh3g3E3GHeDcTcYd4NxNxh3g3E3GHeDcTcYd4NxNxh3g3E3GHeDcTcYd4NxNxh3g3E3GHeDcTcYd4NxNxh3g3E3GHeDcTcYd4NxNxh3g3E3GHeDcTcYd4NxNxh3g3E3GHeDcTcYd4NxNxh3g3E3GHeDcTcYd4NxNxh3g3E3GHeDcTcYd4NxNxh3g3E3GHeDcTcYd4NxNxh3g3E3GHeDcTcYd4NxNxh3g3E3GHeDcTcYd5M0fnro7v5FUsZ/nMH4TBLGj2EfHMWNw/7BuBuMu8G4G4y7wbgbjLv5CbXKPpg/YshaAAAAAElFTkSuQmCC');
+    top: 580px;
+    z-index: 5;
+}
+.bird{
+    width: 60px;
+    height: 45px;
+    background-color: yellow;
+    border-radius: 50px;
+    position: absolute;
+}
+.block{
+    background-color: green;
+    width: 130px;
+    height: 350px;
+    position: absolute;
+}
